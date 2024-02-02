@@ -19,7 +19,7 @@ public class Book {
 
     public void setBookName(String bookName) {
         this.bookName = bookName;
-    }
+    } /* */
 
     public int getNumberOfPages() {
         return numberOfPages;
