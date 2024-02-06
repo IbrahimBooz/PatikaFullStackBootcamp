@@ -1,0 +1,31 @@
+
+
+
+
+
+
+h1,h2 { 
+    text-align-last: center;
+    
+    }
+* { 
+    text-align-last: center;
+   
+    }
+p {
+    text-align-last: center;
+  
+    }
+    
+    
+ol {
+        list-style-position: inside;
+        font-style:initial;
+        
+      
+    }
+
+li {
+    text-transform: capitalize;
+    
+}
