@@ -1,0 +1,24 @@
+.freedom {
+    background-image: url(/img/Rectangle\ 19294.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+
+    &-p {
+        color: white;
+        width: 50%;
+        margin: auto;
+        text-align: start;
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    img {
+        position: absolute;
+        bottom: 110px;
+        left: 700px;
+        width: 220px;
+    }
+}

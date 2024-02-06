@@ -1,0 +1,42 @@
+.comment {
+    background-image: url(/img/h1-background-img-1\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 120px;
+    margin-bottom: 40px;
+    h2 {
+        color:#DF6951;
+    }
+    h1 {
+        color: #181E4B;
+        font-size: 44px;
+        width: 40%;
+        text-align: center;
+    }
+    img {
+        position: absolute;
+        margin-bottom: 25px;
+    }
+    p {
+        background-color: rgba(145, 139, 128, 0.262);
+        text-align: center;
+        line-height: 30px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        width: 30%;
+        margin-top: 110px;
+        margin-bottom: 20px;
+        span {
+            color: black;
+            font-weight: 600;
+        }
+    }
+    
+}

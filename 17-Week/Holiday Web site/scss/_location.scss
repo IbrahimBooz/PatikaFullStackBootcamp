@@ -1,0 +1,103 @@
+.location {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+
+    &-left {
+        h5 {
+            color: #DF6951;
+        }
+
+        h1 {
+            color: #181E4B;
+            font-size: 44px;
+            width: 70%;
+        }
+
+        &-content-genl {
+            display: flex;
+            justify-content: start;
+            align-items: baseline;
+            gap: 20px;
+
+            h5 {
+                color: #242848;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 18px;
+                width: 70%;
+            }
+
+            &-img {
+
+                img {
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+
+    &-right {
+        &-card {
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            box-shadow: rgba(0, 0, 0, 0.9) 1px 13px 18px;
+            padding: 15px 10px;
+            border-radius: 15px;
+            gap: 10px;
+            z-index: 1;
+
+            h2 {
+                color: black;
+                font-size: 18px;
+            }
+
+            p {
+                color: #84829A;
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+            &-icon {
+                display: flex;
+                gap: 10px;
+
+                img {
+                    padding: 10px;
+                    background-color: rgba(45, 43, 43, 0.316);
+                    border-radius: 50%;
+
+
+                }
+            }
+
+            &-icon2 {
+                display: flex;
+                gap: 10px;
+
+                img {
+                    width: 10px;
+                    height: 30px;
+                }
+            }
+
+            &-plane {
+
+                position: absolute;
+                top: 150px;
+                z-index: -1;
+                width: 550px;
+                right: 92px;
+                opacity: 0.6;
+
+            }
+        }
+    }
+}

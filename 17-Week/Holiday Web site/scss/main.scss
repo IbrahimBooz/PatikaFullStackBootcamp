@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+@import 'header';
+@import 'category';
+@import 'cont';
+@import 'location';
+@import 'promotion';
+@import 'freedom';
+@import 'line';
+@import 'packages';
+@import 'comment';
+@import 'footer';
+@import 'mediaquery';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+.btn {
+    background-color: #DF6951;
+    filter: drop-shadow(0px 20px 35px rgba(223, 105, 81, 0.15));
+    padding: 10px 20px;
+    color: white;
+
+    &:hover {
+        background-color: #DF6951;
+        color: white;
+    }
+}

@@ -1,0 +1,67 @@
+.footer {
+  display: flex;
+  position: relative;
+  gap: 60px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+padding-top: 40px;
+    background: url(/img/Footer\ img.png), lightgray -0.018px -48px / 154.946% 129.339%;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  &-first {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &-logo {
+      position: absolute;
+      top: 60px;
+      left: 390px;
+    }
+
+    h2 {
+      color: black;
+      font-size: 34px;
+    }
+
+    &-content {
+      color: #757095;
+      width: 70%;
+    }
+
+    &-icons {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      justify-content: flex-start;
+    }
+  }
+
+  &-second {
+    &-list1 {
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+
+      li {
+        &:nth-of-type(1) {
+          font-weight: 700;
+        }
+
+        a {
+          text-decoration: none;
+          color: #181433;
+        }
+      }
+    }
+  }
+
+  &-last {
+    h1 {
+      font-size: 24px;
+    }
+  }
+
+}

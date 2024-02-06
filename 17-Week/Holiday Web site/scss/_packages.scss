@@ -1,0 +1,120 @@
+.packages {
+    display: flex;
+    flex-direction: column;
+
+    &-up {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h3 {
+            text-align: center;
+            color: #DF6951;
+            font-size: 1.125rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 0.1125rem;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            color: #181E4B;
+            font-size: 54px;
+            width: 40%;
+            text-align: center;
+        }
+    }
+
+    &-down {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        &-card {
+            margin-top: 40px;
+            position: relative;
+            border: none;
+
+
+            &-img {
+                position: absolute;
+                bottom: 363px;
+            }
+
+            &-body {
+
+
+                &-title {
+                    display: flex;
+                    gap: 15px;
+                    text-shadow: #adadad 1px 0 10px;
+
+                    &-calender {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 5px;
+                        margin-top: 15px;
+
+                        p {
+                            margin-top: 18px;
+                            text-shadow: #adadad 1px 0 10px;
+                        }
+                    }
+                }
+
+                &-country {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    text-shadow: #adadad 1px 0 10px;
+
+                }
+
+                &-icon {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+
+                    p {
+                        margin-top: 15px;
+                        margin-left: 10px;
+                        text-shadow: #adadad 1px 0 10px;
+                    }
+                }
+
+                &-price {
+                    display: flex;
+                    gap: 40px;
+                    text-shadow: #adadad 1px 0 10px;
+
+                    p {
+                        color: #DF6951;
+                        font-size: 24px;
+                        font-weight: 600;
+                        text-shadow: #adadad 1px 0 10px;
+                    }
+
+                    span {
+                        text-decoration: line-through;
+                        color: #7D7D7D;
+                        font-size: 24px;
+                        font-weight: 600;
+                        text-shadow: #adadad 1px 0 10px;
+                    }
+                }
+            }
+
+        }
+
+        &-text {
+            text-shadow: #adadad 1px 5px 10px;
+      
+        }
+
+
+    }
+
+}

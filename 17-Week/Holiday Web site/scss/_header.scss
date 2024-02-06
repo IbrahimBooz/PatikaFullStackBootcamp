@@ -1,0 +1,204 @@
+.header {
+    height: 90vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.33) 0%, rgba(0, 0, 0, 0.33) 100%), url(/img/Rectangle.png), lightgray 50% / cover no-repeat;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+    &-menu {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 30px;
+        align-items: center;
+        margin: auto;
+
+        &-left {
+            display: flex;
+            flex-direction: column;
+            text-align: start;
+            position: relative;
+            padding-left: 30px;
+
+            &-logo {
+                position: absolute;
+                top: 25px;
+                left: 65px;
+            }
+
+            &-write {
+                h2 {
+                    color: white;
+                    font-size: 38px;
+                    font-family: 'Volkhov', sans-serif;
+                }
+
+                img {
+                    top: 26px;
+                    left: 81px;
+                    position: absolute;
+                }
+            }
+        }
+    }
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 203px;
+    margin-top: 40px;
+    gap: 10px;
+
+    &-vek {
+        img {
+            width: 90px;
+        }
+    }
+
+    &-p {
+        p {
+            color: white;
+            font-size: 48px;
+            width: 49%;
+            font-weight: bolder;
+        }
+    }
+
+    &-sub {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+        background-color: #708559bb;
+        width: 55%;
+        padding: 15px 0;
+        border-radius: 10px;
+        color: #F7F7F7;
+
+
+
+        &-first {
+            display: flex;
+            height: 35px;
+            padding-right: 20px;
+            border-right: 3px solid #D0D0D0;
+        }
+
+        &-second {
+            display: flex;
+            align-content: center;
+            gap: 5px;
+            justify-content: center;
+            height: 35px;
+            padding-right: 20px;
+            border-right: 3px solid #D0D0D0;
+
+            a {
+                margin-top: 3px;
+            }
+
+        }
+
+        &-thirty {
+            display: flex;
+            align-content: center;
+            gap: 5px;
+            justify-content: center;
+
+            a {
+                margin-top: 3px;
+            }
+        }
+
+        &-btn {
+            :hover {
+                background-color: #DF6951;
+            }
+        }
+    }
+
+    &-img {
+        margin-top: 15px;
+        justify-content: space-between;
+        display: flex;
+        width: 45%;
+        align-items: center;
+
+        &-left {
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            img {
+                position: absolute;
+                z-index: 100;
+
+                &:nth-child(1) {
+                    left: 0px;
+                }
+
+                &:nth-child(2) {
+                    left: 25px;
+                }
+
+                &:nth-child(3) {
+                    left: 50px;
+                }
+
+                &:nth-child(4) {
+                    left: 75px;
+                }
+
+                &:nth-child(5) {
+                    left: 100px;
+                }
+
+                &:nth-child(6) {
+                    left: 125px;
+                }
+
+                &:nth-child(7) {
+                    left: 150px;
+                }
+            }
+
+            i {
+                position: absolute;
+                left: 163px;
+                z-index: 100;
+            }
+        }
+
+        &-right {
+            color: white;
+            font-weight: 500;
+            margin-top: 15px;
+
+            p {
+                margin-left: 200px;
+                width: 520px;
+            }
+        }
+    }
+}
+
+.marka-logo {
+    background-color: #F7F7F7;
+    height: 10vh;
+
+    &-img {
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+
+        &-fot {
+            width: 90px;
+            margin-top: 25px;
+
+        }
+    }
+}
