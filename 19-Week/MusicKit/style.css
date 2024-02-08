@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 54px;
+}
+.up-div img {
+  height: 80vh;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 15px;
+  background-color: #0b60b0;
+  color: white;
+  border: none;
+  font-weight: 800;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px white;
+}
+
+.container {
+  background: linear-gradient(300deg, #2d3250, #424769, #3468C0);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
