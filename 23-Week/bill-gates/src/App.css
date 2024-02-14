@@ -1,0 +1,125 @@
+:root {
+  justify-content: center;
+  text-align: center;
+  background: red;
+  margin: auto;
+  display: grid;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  justify-content: center;
+  background: rgba(255, 255, 255);
+  border-radius: 5px;
+
+}
+
+.card p {
+  margin: 0;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.productList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  text-align: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.card img {
+  width: 250px;
+  height: 225px;
+  object-fit: contain;
+}
+
+.inputV {
+  margin: 10px;
+  padding: 0.7em 1.2em;
+  text-align: center;
+  width: 15%;
+  background: white;
+  color: #000;
+  outline: none;
+  border: 1px solid black;
+}
+
+.title {
+  color: black;
+}
+
+.title-p {
+  font-size: 44px;
+}
+
+.balance {
+  background: linear-gradient(180deg, #2ecc71, #1abc9c);
+  padding: 20px;
+  margin: 10px 0;
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  top: 0;
+  position: sticky;
+  z-index: 9999;
+  color: white;
+}
+
+.bill-img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.buyBtn {
+  background: linear-gradient(180deg, #2ecc71, #1abc9c);
+}
+
+.sellBtn {
+  background: linear-gradient(180deg, #f53b82, #f53b57);
+}
+
+.button-click {
+
+  font-size: 24px;
+  margin: 0;
+  transition: color 0.4s ease-in-out;
+}
+
+.total {
+  margin: 10px;
+  font-size: 26px;
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    max-width: 400px;
+  }
+
+  .title {
+    width: 300px;
+  }
+
+  .productList {
+    display: grid;
+    grid-template-columns: 300px;
+
+  }
+
+
+
+  .balance {
+    width: 100%;
+  }
+}
