@@ -11,15 +11,10 @@
 
 ## Preview:
 
-
-  ![quizApp](https://github.com/IbrahimBooz/PatikaFullStackBootcamp/assets/109763478/bb181149-f75a-46f0-b157-6a6a60d15d3c)
-
+![quizApp](https://github.com/IbrahimBooz/PatikaFullStackBootcamp/assets/109763478/fdb13dd4-f1c1-4b30-958c-fa139be12923)
 
 
-
-
-
-
+<hr>
 
 ## To visit the site:
 
