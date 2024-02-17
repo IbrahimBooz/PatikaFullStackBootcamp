@@ -7,6 +7,6 @@
 - JAVASCRİPT
 - REACT
 
-![/quizApp/readme-img.webp]()
+<img src="https://skillicons.dev/icons?i=javascript,vite,html,css,react,vscode,git,github" height="75" />
 
 ## To visit the site:
