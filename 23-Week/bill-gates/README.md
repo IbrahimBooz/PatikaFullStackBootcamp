@@ -7,7 +7,7 @@
 
 ## To visit the site:
 
-
+https://bill-gates-one.vercel.app
 
 ## This project is made to learn and practice react basics.
 
