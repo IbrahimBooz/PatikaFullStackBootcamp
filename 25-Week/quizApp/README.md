@@ -6,9 +6,8 @@
 - CSS
 - JAVASCRİPT
 - REACT
+![readme-img](https://github.com/IbrahimBooz/PatikaFullStackBootcamp/assets/109763478/f63d2d49-becf-4c1e-b831-a18cbbc7cedb)
 
-
-![readme-img](https://github.com/IbrahimBooz/PatikaFullStackBootcamp/assets/109763478/a10a811c-bd94-4689-bb8c-b93c7583baa9)
 
 
 ## Preview:
