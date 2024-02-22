@@ -17,10 +17,9 @@
 
 
 
-<<<<<<< HEAD
-<img src="https://skillicons.dev/icons?i=javascript,vite,html,css,react,vscode,git,github" height="75" />
-=======
->>>>>>> e176e1ef64dadda068789e9cebc61d40b787f151
+
+<img src="https://skillicons.dev/icons?i=javascript,vite,html,css,react" height="75" />
+
 
 ## To visit the site:
 
